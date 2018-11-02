@@ -1,0 +1,670 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="120dp"
+    android:orientation="vertical">
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/sunday"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/text_layout"
+            android:gravity="center"
+            android:text="日"
+
+            />
+
+        <TextView
+            android:id="@+id/monday"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/text_layout"
+            android:gravity="center"
+            android:text="月"
+
+            />
+
+        <TextView
+            android:id="@+id/tuesday"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/text_layout"
+            android:gravity="center"
+            android:text="火"
+
+            />
+
+        <TextView
+            android:id="@+id/wednesday"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/text_layout"
+            android:gravity="center"
+            android:text="水"
+
+            />
+
+
+        <TextView
+            android:id="@+id/thursday"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/text_layout"
+            android:gravity="center"
+            android:text="木"
+
+            />
+
+        <TextView
+            android:id="@+id/friday"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/text_layout"
+            android:gravity="center"
+            android:text="金"
+
+            />
+
+        <TextView
+            android:id="@+id/saturday"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/text_layout"
+            android:gravity="center"
+            android:text="土"
+
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/one"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/text_layout"
+            android:gravity="center"
+            android:text=""
+
+            />
+
+        <TextView
+            android:id="@+id/two"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/text_layout"
+            android:gravity="center"
+            android:text="○"
+
+            />
+
+        <TextView
+            android:id="@+id/three"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/text_layout"
+            android:gravity="center"
+            android:text="○"
+
+            />
+
+        <TextView
+            android:id="@+id/four"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/text_layout"
+            android:gravity="center"
+            android:text="○"
+
+            />
+
+        <TextView
+            android:id="@+id/five"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/text_layout"
+            android:gravity="center"
+            android:text="○"
+
+            />
+
+        <TextView
+            android:id="@+id/six"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/text_layout"
+            android:gravity="center"
+            android:text="○"
+
+            />
+
+        <TextView
+            android:id="@+id/seven"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/text_layout"
+            android:gravity="center"
+            android:text="○"
+
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/eight"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/text_layout"
+            android:gravity="center"
+            android:text="○"
+
+            />
+
+        <TextView
+            android:id="@+id/nine"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/text_layout"
+            android:gravity="center"
+            android:text="○"
+
+            />
+
+        <TextView
+            android:id="@+id/ten"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/text_layout"
+            android:gravity="center"
+            android:text="○"
+
+            />
+
+        <TextView
+            android:id="@+id/eleven"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/text_layout"
+            android:gravity="center"
+            android:text="○"
+
+            />
+
+        <TextView
+            android:id="@+id/twelve"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/text_layout"
+            android:gravity="center"
+            android:text="○"
+
+            />
+
+        <TextView
+            android:id="@+id/thirteen"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/text_layout"
+            android:gravity="center"
+            android:text="○"
+
+            />
+
+        <TextView
+            android:id="@+id/fourteen"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/text_layout"
+            android:gravity="center"
+            android:text="○"
+
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/fifteen"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/text_layout"
+            android:gravity="center"
+            android:text="○"
+
+            />
+
+        <TextView
+            android:id="@+id/sixteen"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+
+
+            android:background="@drawable/text_layout"
+            android:gravity="center"
+            android:text="○"
+
+            />
+
+        <TextView
+            android:id="@+id/seventeen"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+
+
+            android:background="@drawable/text_layout"
+            android:gravity="center"
+            android:text="○"
+
+            />
+
+        <TextView
+            android:id="@+id/eighteen"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+
+
+            android:background="@drawable/text_layout"
+            android:gravity="center"
+            android:text="○"
+
+            />
+
+        <TextView
+            android:id="@+id/nineteen"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+
+
+            android:background="@drawable/text_layout"
+            android:gravity="center"
+            android:text="○"
+
+            />
+
+        <TextView
+            android:id="@+id/twenty"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+
+
+            android:background="@drawable/text_layout"
+            android:gravity="center"
+            android:text="○"
+
+            />
+
+        <TextView
+            android:id="@+id/twentyOne"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+
+
+            android:background="@drawable/text_layout"
+            android:gravity="center"
+            android:text="○"
+
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/twentyTwo"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+
+
+            android:background="@drawable/text_layout"
+            android:gravity="center"
+            android:text="○"
+
+            />
+
+        <TextView
+            android:id="@+id/twentyThree"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+
+
+            android:background="@drawable/text_layout"
+            android:gravity="center"
+            android:text="○"
+
+            />
+
+        <TextView
+            android:id="@+id/twentyFour"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+
+
+            android:background="@drawable/text_layout"
+            android:gravity="center"
+            android:text="○"
+
+            />
+
+        <TextView
+            android:id="@+id/twentyFive"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+
+
+            android:background="@drawable/text_layout"
+            android:gravity="center"
+            android:text="○" />
+
+        <TextView
+            android:id="@+id/twentySix"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+
+
+            android:background="@drawable/text_layout"
+            android:gravity="center"
+            android:text="○"
+
+            />
+
+        <TextView
+            android:id="@+id/twentySeven"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+
+
+            android:background="@drawable/text_layout"
+            android:gravity="center"
+            android:text="○"
+
+            />
+
+        <TextView
+            android:id="@+id/twentyEight"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+
+
+            android:background="@drawable/text_layout"
+            android:gravity="center"
+            android:text="○"
+
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/twentyNine"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+
+
+            android:background="@drawable/text_layout"
+            android:gravity="center"
+            android:text="○"
+
+            />
+
+        <TextView
+            android:id="@+id/thirty"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+
+
+            android:background="@drawable/text_layout"
+            android:gravity="center"
+            android:text="○" />
+
+        <TextView
+            android:id="@+id/thirtyOne"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+
+
+            android:background="@drawable/text_layout"
+            android:gravity="center"
+            android:text="○"
+
+            />
+
+        <TextView
+            android:id="@+id/thirtyTwo"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+
+
+            android:background="@drawable/text_layout"
+            android:gravity="center"
+            android:text="○"
+
+            />
+
+        <TextView
+            android:id="@+id/thirtyThree"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+
+
+            android:background="@drawable/text_layout"
+            android:gravity="center"
+            android:text="○"
+
+            />
+
+        <TextView
+            android:id="@+id/thirtyFour"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+
+
+            android:background="@drawable/text_layout"
+            android:gravity="center"
+            android:text="○"
+
+            />
+
+        <TextView
+            android:id="@+id/thirtyFive"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+
+
+            android:background="@drawable/text_layout"
+            android:gravity="center"
+            android:text="○"
+
+            />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/thirtySeven"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+
+
+            android:background="@drawable/text_layout"
+            android:gravity="center"
+            android:text="○"
+
+            />
+
+        <TextView
+            android:id="@+id/thirtyEight"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+
+
+            android:background="@drawable/text_layout"
+            android:gravity="center"
+            android:text="○"
+
+            />
+
+        <TextView
+            android:id="@+id/thirtyNine"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+
+
+            android:background="@drawable/text_layout"
+            android:gravity="center"
+            android:text="○"
+
+            />
+
+        <TextView
+            android:id="@+id/forty"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+
+
+            android:background="@drawable/text_layout"
+            android:gravity="center"
+            android:text="○"
+
+            />
+
+        <TextView
+            android:id="@+id/fortyOne"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+
+
+            android:background="@drawable/text_layout"
+            android:gravity="center"
+            android:text="○"
+
+            />
+
+        <TextView
+            android:id="@+id/fortyTwo"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+
+
+            android:background="@drawable/text_layout"
+            android:gravity="center"
+            android:text="○"
+
+            />
+
+        <TextView
+            android:id="@+id/fortyThree"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+
+
+            android:background="@drawable/text_layout"
+            android:gravity="center"
+            android:text="○"
+
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>
